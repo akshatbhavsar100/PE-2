@@ -1,0 +1,35 @@
+{
+  "name": "disaster-analyzer",
+  "version": "1.0.0",
+  "description": "Disaster Management Budget Analyzer - ML-powered analytics platform",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "fastapi": "^0.135.3",
+    "uvicorn": "^0.34.0",
+    "pandas": "^3.0.2",
+    "sqlalchemy": "^2.0.49",
+    "joblib": "^1.5.3",
+    "scikit-learn": "^1.8.0",
+    "python-multipart": "^0.0.24"
+  },
+  "devDependencies": {
+    "vercel": "^39.0.0"
+  },
+  "keywords": [
+    "disaster-management",
+    "machine-learning",
+    "budget-analysis",
+    "fastapi",
+    "analytics"
+  ],
+  "author": "Disaster Management Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
